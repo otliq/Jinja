@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <base href="https://t.me/otliq">
+    <title>Trader</title>
+</head>
+<body>
+
+<ul>
+{% for t in trades -%}
+    <li>{{t.pair}}
+{% endfor -%}
+</ul>
+
+</body>
+</html>
